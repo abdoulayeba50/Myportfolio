@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Portfolio | Abdoulaye Ba</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Abdoulaye Ba</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Acceuil</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">A propos</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn download-cv" data-cv="assets/cv.pdf">
+                Télécharger le CV <i class="uil uil-file-alt"></i>
+              </button>    
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Abdoulaye Ba</span>
+            </div>
+            <div class="featured-name">
+                <p>Je suis un <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Développeur web junior, passionné par le code et toujours prêt à apprendre.
+                    Bienvenue sur mon portfolio.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn">Contactez-moi</button>
+                <button class="btn download-cv" data-cv="CV.pdf">
+                    Télécharger le CV <i class="uil uil-file-alt"></i>
+                </button>                 
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><a href="https://www.instagram.com/________abdoulaye__/" target="_blank"><i class="uil uil-instagram"></i></a></div>
+                <div class="icon"><a href="https://www.linkedin.com/in/abdoulaye-ba-89664b23a/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                <div class="icon"><a href="https://github.com/abdoulayeba50?tab=repositories" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+            </div>
+            
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/Yo me.jpeg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll en Bas</p>
+            </a>
+          </div>
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>A Propos de Moi</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>À propos de moi</h3>
+                    <p>Je maîtrise bien HTML, CSS et JavaScript, ainsi que d'autres frameworks et bibliothèques modernes, ce qui me permet d’implémenter des fonctionnalités interactives.
+                         J’ai également de l’expérience avec des systèmes de gestion de contenu (CMS) comme WordPress.
+                    </p>
+                    <div class="about-btn">
+                        <button class="btn download-cv" data-cv="CV.pdf">
+                            Télécharger le CV <i class="uil uil-file-alt"></i>
+                          </button>
+                          
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>Angular</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>PHP</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+       <!-- -------------- PROJECT BOX ---------------- -->
+       <section class="section" id="projects">
+        <div class="top-header">
+            <h1>Projets</h1>
+        </div>
+        <div class="project-container">
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Terminé</h3>
+                <label>10+ Projets terminés</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-users-alt"></i>
+                <h3>Clients</h3>
+                <label>15+ Clients satisfaits</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-award"></i>
+                <h3>Expérience</h3>
+                <label>1+ Ans dans le domaine</label>
+            </div>
+        </div>
+    </section>
+       <!-- -------------- CONTACT BOX ---------------- -->
+       <section class="section" id="contact">
+        <div class="top-header">
+          <h1>Contactez-moi</h1>
+          <span>Vous avez un projet en tête ? Parlons-en ici.</span>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="contact-info">
+              <h2>Retrouve-moi ici <i class="uil uil-corner-right-down"></i></h2>
+              <p><i class="uil uil-envelope"></i> Email: baa108102@gmail.com</p>
+              <p><i class="uil uil-phone"></i> Tel: +221 77 889 02 34</p>
+            </div>
+          </div>
+          <div class="col">
+            <form action="https://formspree.io/f/xldjadag" method="POST" class="form-control">
+              <div class="form-inputs">
+                <input type="text" class="input-field" name="Nom" placeholder="Nom" required>
+                <input type="email" class="input-field" name="Email" placeholder="Email" required>
+              </div>
+              <div class="text-area">
+                <textarea name="Message" placeholder="Message" required></textarea>
+              </div>
+              <div class="form-button">
+                <button type="submit" class="btn">Envoyer <i class="uil uil-message"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      
+</main>
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Abdoulaye Ba .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Acceuil</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">A propos</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><a href="https://www.instagram.com/________abdoulaye__/" target="_blank"><i class="uil uil-instagram"></i></a></div>
+            <div class="icon"><a href="https://www.linkedin.com/in/abdoulaye-ba-89664b23a/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+            <div class="icon"><a href="https://github.com/abdoulayeba50?tab=repositories" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+        </div>
+        
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">AbdoulayeBA</a> - Tous droits réservés</p>
+        </div>
+    </footer>
+    </div>
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ----- MAIN JS ----- -->
+    <script src="script.js"></script>
+</body>
+</html>
