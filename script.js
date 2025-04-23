@@ -40,7 +40,7 @@ function myMenuFunction(){
       link.download = 'Cv_AbdoulayeBA.pdf'; // le nom que le fichier aura une fois téléchargé
       document.body.appendChild(link);
       link.click();
-      document.body.removeChild(link);
+      document.body.removeChild(link) ;
     });
   });
 
